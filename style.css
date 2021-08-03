@@ -16,6 +16,21 @@ P{
     margin: 0.5em 0 0.5em 0;
 }
 
+h1{
+    font-size: 3em;
+    margin-top: .5em;
+}
+
+.banner{
+    max-width: 100%;
+}
+.sub-title{
+    background-color: rgb(248, 205, 255);
+    font-size: 1.5em;
+    padding: 10px;
+    color:rgb(0, 0, 0);
+}
+
 header{
     display: block;
     position: fixed;
@@ -66,8 +81,16 @@ aside {
 
 article{
     width: 75%;
-}
+} 
 
+@media only screen and (min-width: 768px){
+    main{
+        display: flex;
+    }
+    aside{
+        margin-left: 2%;
+    }
+}
 
 
 /*.desktop,
